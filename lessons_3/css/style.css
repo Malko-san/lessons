@@ -1,0 +1,19 @@
+@import url(reset.css);
+h2{
+	color: teal;
+}
+.divtop1{
+	color: blue;
+}
+.bottom{
+	color: red;
+}
+ul{
+	color: crimson;
+}
+.text ~ p{
+	color: brown;
+}
+.last + p{
+	color: blueviolet;
+}
