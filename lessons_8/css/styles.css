@@ -1,0 +1,166 @@
+@import url("reset.css");
+
+
+.no-limit__width{
+background-image: url(../img/unsplash_WgMDQsn36w4.png);
+background-repeat: no-repeat;
+background-size: cover;
+height: 600px;
+width: 100%;
+padding: 330px 0px 100px 100px;
+}
+.content{
+	max-width: 605px;
+	color: #E5E5E5;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 20px;
+	font-family: "Poppins","sans-serif";
+}
+/*звернення до першого та останнього абзацу*/
+.content>p:first-of-type{
+	margin-bottom: 15px;
+}
+.content>p:last-of-type{
+	margin-top: 15px;
+}
+h1{
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 40px;
+}
+main{
+	margin-top: 25px;
+}
+.conteiner-1170{
+	
+	max-width: 1170px;
+	margin: 0 auto;
+	font-family: "Inter", "sans-serif";
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 15px;
+	color: #637381;
+}
+h2{
+	color: #212B36;
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 28px;
+	margin-bottom: 45px;
+}
+ul{
+	margin-bottom: 20px;
+}
+li{
+	background-repeat: no-repeat;
+	line-height: 25px;
+}
+/* класи з фоновими зображеннями*/
+.point>li{
+	background-image: url(../img/elips.png);
+	background-position: 0 8px;
+	padding-left: 15px;
+}
+.grop>li{
+	background-image: url(../img/Group.png);
+	padding-left: 30px;
+	background-position: 0 3px;
+}
+.chec>li{
+	background-image: url(../img/chec.png);
+	padding-left: 30px;
+	background-position: 0 3px;
+}
+.cros>li{
+	background-image: url(../img/cros.png);
+	padding-left: 30px;
+	background-position: 0 3px;
+}
+.arro>li{
+	background-image: url(../img/arro.png);
+	padding-left: 30px;
+	background-position: 0 3px;
+}
+.star>li{
+	background-image: url(../img/star.png);
+	padding-left: 30px;
+	background-position:0 3px;
+}
+/*підвал з фоновим зображ*/
+
+.fon{
+	
+	height: 560px;
+	background: url(../img/speaker.jpg) 884px 82px no-repeat, url(../img/her.jpg)0 0/ cover no-repeat;
+	font-family: "Inter", "sans-serif";
+}
+.text{
+	max-width: 570px;
+	padding-top: 145px;
+	margin-left: 135px;  
+}
+/*звернення до першого абзаца через псевдоклас*/
+.text>p:first-of-type{
+	margin-bottom: 13px;
+	color: #3056D3;
+	font-weight: 600;
+	line-height: 24px;
+}
+h3{
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 1.25;
+	color: #212B36;
+	margin-bottom: 15px;
+}
+/*псевдоелементи при наведенні*/
+h3:hover::before{
+	content: "(";
+}
+h3:hover::after{
+	content: ")";
+}
+.last-p{
+	font-size: 16px;
+	font-weight: 500;
+	color: #637381;
+	line-height: 1.5;
+	margin-bottom: 35px;
+}
+button{
+border-radius: 30px;
+color:#FFFFFF;
+background-color: #3056D3;
+padding: 10px 30px 10px 30px;
+}
+button:hover{
+	font-size: 25px;
+	box-shadow: 5px 5px cornflowerblue;
+}
+.zero{
+	border-top: 1px solid black;
+	/* margin-top: 16px; */
+	padding-bottom: 30px;
+	padding-top: 15px;
+	padding-left: 15px;
+}
+a{
+	color: blue;
+	border-bottom: 1px solid blue;
+	font-size: 20px;
+}
+.zero>a:hover{
+	font-size: 27px;
+	color: red;
+	background-color: antiquewhite;
+	padding: 10px 10px 10px 10px;
+	border-radius: 20px;
+} 
+
+
+.toop::after{
+	content: "^";
+}
+
+
